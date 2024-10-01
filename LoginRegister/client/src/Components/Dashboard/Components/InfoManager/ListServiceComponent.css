@@ -1,0 +1,31 @@
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .table thead tr {
+    background-color: hsl(96, 75%, 89%);
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .titleManager {
+    text-align: center;
+    color: hsl(0deg 84.19% 50.39%);
+  }
+  
